@@ -1,7 +1,7 @@
 import time
 import streamlit as st
 
-from lib.chatgpt_util import get_book_recommendation
+from src.chatgpt_util import get_book_recommendation
 
 def main():
     def check_easter_eggs():
@@ -13,7 +13,7 @@ def main():
     st.markdown("> _“A reader lives a thousand lives before he dies.”_ — George R.R. Martin")
     st.markdown("---")
 
-    st.markdown("### 👋 Hey there, bookworm!")
+    st.markdown("#### 👋 Hey there, bookworm!!")
     st.markdown("Tell me a few books you **loved**, and I'll divine your next literary soulmate.")
 
     col1, col2, col3 = st.columns(3)
