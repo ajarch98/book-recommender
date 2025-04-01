@@ -42,7 +42,6 @@ def main():
             st.success("Your recommendation is ready. Enjoy!")
 
             if book_recommendation:
-                st.warning(book_recommendation)
                 st.subheader(f"📖 {book_recommendation['title']}")
                 st.markdown(f"**Why this book?** {book_recommendation['reason']}")
 
